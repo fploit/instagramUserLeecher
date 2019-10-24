@@ -55,4 +55,4 @@ for user_id in followers:
 
 f.close()
 
-os.system("rm -rf *log *txt config *json mrsploit.checkpoint")
+os.system("rm -rf *log *txt config *json *.checkpoint")
