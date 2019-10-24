@@ -18,3 +18,7 @@ git clone https://github.com/jilrot/instagramUserLeecher
 cd instagramUserLeecher
 python3 leecher.py
 </code></pre>
+
+# Code by:
+<a href="https://jilrot.com">jilrot.com</a>
+<a href="https://t.me/jailbreakandroot">Talagram Channel</a>
