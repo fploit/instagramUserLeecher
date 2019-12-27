@@ -58,3 +58,4 @@ f.close()
 for files in pwd : 
     if files.endswith(('.txt','.log','json','.checkpoint')): 
         os.remove(files) 
+os.rmdir("config")
