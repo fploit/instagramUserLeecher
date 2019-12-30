@@ -42,7 +42,7 @@ print
 account = input("Account to extract user: ")
 
 bot = Bot()
-bot.login(username=user, password=passwd)
+bot.login(username=user, password=passwd, ask_for_code=True)
 user_id = bot.get_user_id_from_username(account)
 followers = bot.get_user_followers(user_id)
 
