@@ -20,5 +20,5 @@ python3 leecher.py
 </code></pre>
 
 # Code by:
-<a href="https://jilrot.com">jilrot.com</a>
-<a href="https://t.me/jailbreakandroot">Talagram Channel</a>
+
+<a href="https://t.me/zoneh">Talagram Channel</a>
