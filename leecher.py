@@ -1,7 +1,6 @@
-# Instagram Username Leecher
-# Jailbreak & Root Tm
-# jilrot.com | t.me/jailbreakandroot
-
+# Code By mrsploit
+# t.me/mrsploit
+# t.me/zoneh
 from instabot import Bot
 import os, getpass
 
