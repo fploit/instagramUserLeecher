@@ -31,14 +31,13 @@ logo = '''
   ### Login ###
 
 '''
-
+pwd = os.getcwd()
 os.system("clear")
 print (logo)
 
 user = input("Username: ")
 passwd = getpass.getpass("Password: ")
-print
-account = input("Account to extract user: ")
+account = input("\nAccount to extract user: ")
 
 bot = Bot()
 bot.login(username=user, password=passwd, ask_for_code=True)
@@ -54,4 +53,8 @@ for user_id in followers:
 
 f.close()
 
-os.system("rm -rf *log *txt config *json *.checkpoint")
+#os.system("rm -rf *log *txt config *json *.checkpoint")
+for files in pwd : 
+    if files.endswith(('.txt','.log','json','.checkpoint')): 
+        os.remove(files) 
+os.rmdir("config")
